@@ -14,9 +14,6 @@ spring:
     rest:
       base-path: /api
 
-server:
-  port: 8080
-
 management:
   endpoints:
     web:
