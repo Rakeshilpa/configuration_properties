@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: root
+    password: Rakesh@123
+    url: jdbc:mysql://localhost:3306/major
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    rest:
+      base-path: /api
+
+server:
+  port: 8080
