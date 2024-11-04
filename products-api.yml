@@ -14,6 +14,11 @@ spring:
     rest:
       base-path: /api
 
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111  # Replace with the actual URL of your Spring Boot Admin Server
+
 management:
   endpoints:
     web:
